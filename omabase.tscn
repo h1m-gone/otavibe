@@ -1,0 +1,604 @@
+[gd_scene format=3 uid="uid://dhhtkxjc3yrhg"]
+
+[ext_resource type="Script" uid="uid://c4wo3ud3ccnx5" path="res://omabase.gd" id="1_qgj5n"]
+[ext_resource type="Texture2D" uid="uid://mwv5jk2ciqy6" path="res://Drawing.sketchpad.png" id="2_bvf2i"]
+[ext_resource type="AudioStream" uid="uid://coh4x81uxxts4" path="res://Mid.mp3" id="3_bvf2i"]
+[ext_resource type="AudioStream" uid="uid://dun55r02ac4c5" path="res://High.mp3" id="4_7kp7k"]
+[ext_resource type="AudioStream" uid="uid://dknnra6ljeah4" path="res://Low.mp3" id="5_ph5rn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i5q7f"]
+
+[node name="omabase" type="CharacterBody2D" unique_id=1097959680]
+scale = Vector2(0.5580558, 0.5)
+script = ExtResource("1_qgj5n")
+
+[node name="body" type="Sprite2D" parent="." unique_id=116322223]
+position = Vector2(-8, -73)
+
+[node name="1" type="ColorRect" parent="body" unique_id=662687162]
+offset_left = -9.919355
+offset_top = 60.999992
+offset_right = 0.40984535
+offset_bottom = 69.21287
+rotation = -0.26667795
+scale = Vector2(5.2579117, 4.548839)
+mouse_filter = 2
+
+[node name="20" type="ColorRect" parent="body" unique_id=896460033]
+offset_left = 38.462894
+offset_top = 83.0
+offset_right = 48.792095
+offset_bottom = 91.212875
+rotation = -0.26667795
+scale = Vector2(1.2829192, 0.48040983)
+mouse_filter = 2
+
+[node name="21" type="ColorRect" parent="body" unique_id=1760947802]
+offset_left = 36.670967
+offset_top = -58.999992
+offset_right = 47.000168
+offset_bottom = -50.787117
+rotation = -0.26667795
+scale = Vector2(1.2829192, 0.48040983)
+mouse_filter = 2
+
+[node name="22" type="ColorRect" parent="body" unique_id=1200095038]
+offset_left = 49.214508
+offset_top = -62.999992
+offset_right = 59.54371
+offset_bottom = -54.787117
+rotation = 0.26632258
+scale = Vector2(4.1235237, 1.4064978)
+mouse_filter = 2
+
+[node name="23" type="ColorRect" parent="body" unique_id=618451768]
+offset_left = 34.87903
+offset_top = -62.999992
+offset_right = 45.20823
+offset_bottom = -54.787117
+rotation = 0.23668653
+scale = Vector2(4.1235237, 1.4064978)
+mouse_filter = 2
+
+[node name="24" type="ColorRect" parent="body" unique_id=2083850354]
+offset_left = 54.590332
+offset_top = -62.999992
+offset_right = 64.91953
+offset_bottom = -54.787117
+rotation = 0.11611854
+scale = Vector2(2.3597088, 1.6281495)
+mouse_filter = 2
+
+[node name="25" type="ColorRect" parent="body" unique_id=828530526]
+offset_left = 77.885475
+offset_top = -58.999992
+offset_right = 88.214676
+offset_bottom = -50.787117
+rotation = 0.6079591
+scale = Vector2(1.0646346, 2.4276485)
+mouse_filter = 2
+
+[node name="26" type="ColorRect" parent="body" unique_id=635457048]
+offset_left = -61.885475
+offset_top = -46.999985
+offset_right = -51.556274
+offset_bottom = -38.78711
+rotation = 0.6079591
+scale = Vector2(1.0646346, 2.4276485)
+mouse_filter = 2
+
+[node name="27" type="ColorRect" parent="body" unique_id=722773223]
+offset_left = -47.55
+offset_top = -61.0
+offset_right = -37.2208
+offset_bottom = -52.787125
+rotation = 0.8320323
+scale = Vector2(1.0646346, 2.4276485)
+mouse_filter = 2
+
+[node name="28" type="ColorRect" parent="body" unique_id=698243468]
+offset_left = -27.838703
+offset_top = -67.0
+offset_right = -17.509502
+offset_bottom = -58.787125
+rotation = 1.267409
+scale = Vector2(1.0646346, 2.4276485)
+mouse_filter = 2
+
+[node name="29" type="ColorRect" parent="body" unique_id=1559237451]
+offset_left = -9.919355
+offset_top = -69.0
+offset_right = 0.40984535
+offset_bottom = -60.787125
+rotation = 1.4215828
+scale = Vector2(1.0646346, 2.4276485)
+mouse_filter = 2
+
+[node name="30" type="ColorRect" parent="body" unique_id=1412069747]
+offset_left = 8.000001
+offset_top = -65.0
+offset_right = 18.3292
+offset_bottom = -56.787125
+rotation = 1.8393581
+scale = Vector2(1.0646346, 2.4276485)
+mouse_filter = 2
+
+[node name="31" type="ColorRect" parent="body" unique_id=1865570754]
+offset_left = 2.6241937
+offset_top = -67.0
+offset_right = 12.953394
+offset_bottom = -58.787125
+rotation = 1.2292014
+scale = Vector2(1.5694416, 8.149711)
+mouse_filter = 2
+
+[node name="32" type="ColorRect" parent="body" unique_id=847392463]
+offset_left = 4.41613
+offset_top = -82.99999
+offset_right = 14.745331
+offset_bottom = -74.78712
+rotation = -0.017370358
+scale = Vector2(1.0165681, 3.8750765)
+mouse_filter = 2
+
+[node name="33" type="ColorRect" parent="body" unique_id=1908423885]
+offset_left = 33.087097
+offset_top = -244.99997
+offset_right = 43.416298
+offset_bottom = -236.7871
+rotation = -0.017370358
+scale = Vector2(1.0117053, 14.295101)
+mouse_filter = 2
+
+[node name="34" type="ColorRect" parent="body" unique_id=618907153]
+offset_left = 33.087097
+offset_top = -244.99997
+offset_right = 43.416298
+offset_bottom = -236.7871
+rotation = -0.017370358
+scale = Vector2(1.0117053, 14.295101)
+mouse_filter = 2
+
+[node name="35" type="ColorRect" parent="body" unique_id=1902537755]
+offset_left = 33.087093
+offset_top = -147.0
+offset_right = 43.416294
+offset_bottom = -138.78714
+rotation = -0.017370358
+scale = Vector2(1.0117053, 14.295101)
+mouse_filter = 2
+
+[node name="36" type="ColorRect" parent="body" unique_id=1134069583]
+offset_left = 4.41612
+offset_top = -272.99997
+offset_right = 14.745321
+offset_bottom = -264.7871
+rotation = -0.88296694
+scale = Vector2(1.9365937, 2.4844294)
+mouse_filter = 2
+
+[node name="37" type="ColorRect" parent="body" unique_id=623619856]
+offset_left = 13.375803
+offset_top = -269.00003
+offset_right = 23.705004
+offset_bottom = -260.78717
+rotation = -1.2865076
+scale = Vector2(1.9365937, 2.4844294)
+mouse_filter = 2
+
+[node name="38" type="ColorRect" parent="body" unique_id=710416817]
+offset_left = 24.127417
+offset_top = -267.00003
+offset_right = 34.45662
+offset_bottom = -258.78717
+rotation = -1.2865076
+scale = Vector2(1.9365937, 2.4844294)
+mouse_filter = 2
+
+[node name="50" type="ColorRect" parent="body" unique_id=812657044]
+offset_left = 32.1914
+offset_top = -262.3097
+offset_right = 42.540108
+offset_bottom = -255.81226
+rotation = -0.24635077
+scale = Vector2(2.4069238, 6.4258595)
+mouse_filter = 2
+
+[node name="54" type="ColorRect" parent="body" unique_id=111958030]
+offset_left = 56.382248
+offset_top = -267.0
+offset_right = 66.73096
+offset_bottom = -260.50256
+rotation = 2.4641364
+scale = Vector2(1.5936154, 2.2563078)
+mouse_filter = 2
+
+[node name="51" type="ColorRect" parent="body" unique_id=1696735142]
+offset_left = 45.630646
+offset_top = -222.99997
+offset_right = 55.959846
+offset_bottom = -214.78711
+rotation = -0.3935688
+scale = Vector2(1.9244033, 2.1230242)
+mouse_filter = 2
+
+[node name="52" type="ColorRect" parent="body" unique_id=11522750]
+offset_left = 52.7984
+offset_top = -207.00003
+offset_right = 63.1276
+offset_bottom = -198.78717
+rotation = -1.3575516
+scale = Vector2(1.2839497, 3.0572693)
+mouse_filter = 2
+
+[node name="53" type="ColorRect" parent="body" unique_id=1324983367]
+offset_left = 79.17533
+offset_top = -203.47026
+offset_right = 89.07733
+offset_bottom = -198.5448
+rotation = -2.3889008
+scale = Vector2(1.6103035, 3.93082)
+mouse_filter = 2
+
+[node name="55" type="ColorRect" parent="body" unique_id=1494130960]
+offset_left = 90.42903
+offset_top = -214.99998
+offset_right = 100.33103
+offset_bottom = -213.12859
+rotation = -2.3889008
+scale = Vector2(1.6103035, 3.93082)
+mouse_filter = 2
+
+[node name="56" type="ColorRect" parent="body" unique_id=748366175]
+offset_left = 92.22097
+offset_top = -221.0
+offset_right = 100.01716
+offset_bottom = -219.97508
+rotation = -2.3889008
+scale = Vector2(1.6103035, 3.93082)
+mouse_filter = 2
+
+[node name="57" type="ColorRect" parent="body" unique_id=197067890]
+offset_left = 93.87966
+offset_top = -223.44641
+offset_right = 100.17388
+offset_bottom = -222.4215
+rotation = -2.3889008
+scale = Vector2(1.6103035, 3.93082)
+mouse_filter = 2
+
+[node name="39" type="ColorRect" parent="body" unique_id=325979020]
+offset_left = 2.6241913
+offset_top = -267.00003
+offset_right = 12.953394
+offset_bottom = -258.78717
+rotation = -1.2865076
+scale = Vector2(0.82442063, 0.8111689)
+mouse_filter = 2
+
+[node name="40" type="ColorRect" parent="body" unique_id=85580345]
+offset_left = 405.80963
+offset_top = -3459.0
+offset_right = 416.13885
+offset_bottom = -3450.787
+rotation = -0.017370358
+scale = Vector2(1.0117053, 14.295101)
+mouse_filter = 2
+
+[node name="41" type="ColorRect" parent="body" unique_id=767841250]
+offset_left = 42.046776
+offset_top = -54.999992
+offset_right = 52.375977
+offset_bottom = -46.787117
+rotation = 3.1308925
+scale = Vector2(3.5690787, 26.100546)
+mouse_filter = 2
+
+[node name="42" type="ColorRect" parent="body" unique_id=573445790]
+offset_left = 43.83872
+offset_top = 85.0
+offset_right = 54.16792
+offset_bottom = 93.212875
+rotation = -0.14345476
+scale = Vector2(0.8372874, -3.1759758)
+mouse_filter = 2
+
+[node name="43" type="ColorRect" parent="body" unique_id=1213522455]
+offset_left = -69.05323
+offset_top = -35.0
+offset_right = -58.72403
+offset_bottom = -26.229103
+rotation = -0.26667795
+scale = Vector2(10.650719, 12.374486)
+mouse_filter = 2
+
+[node name="44" type="ColorRect" parent="body" unique_id=1790353459]
+offset_left = -76.22096
+offset_top = -15.0
+offset_right = -65.89176
+offset_bottom = -6.229103
+rotation = -0.26667795
+scale = Vector2(5.963478, 11.399764)
+mouse_filter = 2
+
+[node name="45" type="ColorRect" parent="body" unique_id=487775631]
+offset_left = -79.80483
+offset_top = 21.0
+offset_right = -69.47563
+offset_bottom = 29.770897
+rotation = -0.26667795
+scale = Vector2(6.580979, 5.498112)
+mouse_filter = 2
+
+[node name="46" type="ColorRect" parent="body" unique_id=774685719]
+offset_left = -67.26129
+offset_top = 67.0
+offset_right = -56.93209
+offset_bottom = 75.7709
+rotation = -0.754405
+scale = Vector2(1.4993472, 1.3322897)
+mouse_filter = 2
+
+[node name="47" type="ColorRect" parent="body" unique_id=2082510597]
+offset_left = -72.6371
+offset_top = 61.0
+offset_right = -62.3079
+offset_bottom = 69.7709
+rotation = -0.754405
+scale = Vector2(1.4993472, 1.3322897)
+mouse_filter = 2
+
+[node name="48" type="ColorRect" parent="body" unique_id=1870565741]
+offset_left = -76.220955
+offset_top = 45.000004
+offset_right = -65.891754
+offset_bottom = 53.7709
+rotation = -0.21938324
+scale = Vector2(1.6644241, 1.8788408)
+mouse_filter = 2
+
+[node name="49" type="ColorRect" parent="body" unique_id=677718434]
+offset_left = -79.80484
+offset_top = 24.999998
+offset_right = -69.47564
+offset_bottom = 33.770897
+rotation = -0.21938324
+scale = Vector2(0.6208646, 3.1942337)
+mouse_filter = 2
+
+[node name="2" type="ColorRect" parent="body" unique_id=1593857557]
+offset_left = -33.214516
+offset_top = 61.000004
+offset_right = -23.02266
+offset_bottom = 69.260704
+rotation = 0.25082126
+scale = Vector2(4.105732, 3.1787708)
+mouse_filter = 2
+
+[node name="3" type="ColorRect" parent="body" unique_id=1661428311]
+offset_left = -35.006454
+offset_top = 63.000008
+offset_right = -24.677254
+offset_bottom = 71.77091
+rotation = 0.4473687
+scale = Vector2(0.8022195, 2.875104)
+mouse_filter = 2
+
+[node name="4" type="ColorRect" parent="body" unique_id=661989078]
+offset_left = -27.838717
+offset_top = 67.0
+offset_right = -17.509516
+offset_bottom = 75.770905
+rotation = 0.25056303
+scale = Vector2(0.8022195, 2.875104)
+mouse_filter = 2
+
+[node name="5" type="ColorRect" parent="body" unique_id=1501009563]
+offset_left = -35.00645
+offset_top = 65.0
+offset_right = -24.67725
+offset_bottom = 73.770905
+rotation = 0.18819816
+scale = Vector2(0.8022195, 2.875104)
+mouse_filter = 2
+
+[node name="6" type="ColorRect" parent="body" unique_id=439717670]
+offset_left = -22.462902
+offset_top = 69.0
+offset_right = -12.133701
+offset_bottom = 77.770905
+rotation = 0.18819816
+scale = Vector2(0.8022195, 2.875104)
+mouse_filter = 2
+
+[node name="7" type="ColorRect" parent="body" unique_id=2146551253]
+offset_left = -15.29516
+offset_top = 71.00001
+offset_right = -4.9659595
+offset_bottom = 79.77091
+rotation = 0.18819816
+scale = Vector2(0.8022195, 2.875104)
+mouse_filter = 2
+
+[node name="8" type="ColorRect" parent="body" unique_id=1504905251]
+offset_left = -17.087097
+offset_top = 75.00001
+offset_right = -6.7578964
+offset_bottom = 83.77091
+rotation = -0.19084305
+scale = Vector2(2.270652, 2.7669075)
+mouse_filter = 2
+
+[node name="9" type="ColorRect" parent="body" unique_id=1922214664]
+offset_left = 47.42258
+offset_top = 63.0
+offset_right = 57.75178
+offset_bottom = 71.770905
+rotation = -2.0947616
+scale = Vector2(2.9305093, 4.074352)
+mouse_filter = 2
+
+[node name="10" type="ColorRect" parent="body" unique_id=1940893221]
+offset_left = 90.42903
+offset_top = -48.999996
+offset_right = 100.75823
+offset_bottom = -40.22909
+rotation = -4.6856937
+scale = Vector2(7.1562896, 7.2762876)
+mouse_filter = 2
+
+[node name="11" type="ColorRect" parent="body" unique_id=739053486]
+offset_left = 76.09355
+offset_top = 47.000008
+offset_right = 86.42276
+offset_bottom = 55.770912
+rotation = -2.6084287
+scale = Vector2(2.3001928, 2.9884567)
+mouse_filter = 2
+
+[node name="12" type="ColorRect" parent="body" unique_id=636251086]
+offset_left = 90.42904
+offset_top = 21.0
+offset_right = 100.75825
+offset_bottom = 29.770905
+rotation = -2.8882332
+scale = Vector2(2.3001928, 2.9884567)
+mouse_filter = 2
+
+[node name="13" type="ColorRect" parent="body" unique_id=1006170861]
+offset_left = 95.80484
+offset_top = 7.0
+offset_right = 106.13405
+offset_bottom = 15.770905
+rotation = -2.9988244
+scale = Vector2(2.3001928, 2.9884567)
+mouse_filter = 2
+
+[node name="14" type="ColorRect" parent="body" unique_id=503420997]
+offset_left = 99.38872
+offset_top = -19.000004
+offset_right = 109.717926
+offset_bottom = -10.229099
+rotation = -3.3734562
+scale = Vector2(2.3001928, 2.9884567)
+mouse_filter = 2
+
+[node name="15" type="ColorRect" parent="body" unique_id=284816269]
+offset_left = 99.38871
+offset_top = -25.000004
+offset_right = 109.71792
+offset_bottom = -16.2291
+rotation = -3.467277
+scale = Vector2(2.3001928, 2.9884567)
+mouse_filter = 2
+
+[node name="16" type="ColorRect" parent="body" unique_id=2137961131]
+offset_left = 97.59677
+offset_top = -34.999996
+offset_right = 107.92598
+offset_bottom = -26.229092
+rotation = -3.7728953
+scale = Vector2(2.3001928, 2.9884567)
+mouse_filter = 2
+
+[node name="17" type="ColorRect" parent="body" unique_id=642338778]
+offset_left = 86.84516
+offset_top = -52.999996
+offset_right = 97.17437
+offset_bottom = -44.22909
+rotation = -4.713777
+scale = Vector2(2.3001928, 2.9884567)
+mouse_filter = 2
+
+[node name="18" type="ColorRect" parent="body" unique_id=303797981]
+offset_left = 54.59033
+offset_top = 61.0
+offset_right = 64.919525
+offset_bottom = 69.770905
+rotation = -2.0947616
+scale = Vector2(1.566544, 2.7856092)
+mouse_filter = 2
+
+[node name="19" type="ColorRect" parent="body" unique_id=870708049]
+offset_left = -49.341927
+offset_top = 59.0
+offset_right = -39.012726
+offset_bottom = 67.770905
+rotation = 0.7171662
+scale = Vector2(2.0193152, 2.090462)
+mouse_filter = 2
+
+[node name="Drawing_sketchpad" type="Sprite2D" parent="body" unique_id=2044680151]
+position = Vector2(17.000002, -103)
+scale = Vector2(0.45149627, 0.5123334)
+texture = ExtResource("2_bvf2i")
+
+[node name="Timer" type="Timer" parent="." unique_id=1890103369]
+wait_time = 0.25
+autostart = true
+
+[node name="Area2D" type="Area2D" parent="." unique_id=149068287]
+scale = Vector2(0.7298159, 1.007332)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=190306353]
+position = Vector2(-9, -223)
+scale = Vector2(21.217934, 33.04497)
+shape = SubResource("RectangleShape2D_i5q7f")
+
+[node name="arr" type="ColorRect" parent="." unique_id=2126650916]
+offset_left = -153.0
+offset_top = -219.0
+offset_right = -113.0
+offset_bottom = -179.0
+rotation = 0.8605618
+mouse_filter = 2
+
+[node name="arrr" type="ColorRect" parent="arr" unique_id=1398434622]
+layout_mode = 0
+offset_left = -24.047884
+offset_top = 47.903015
+offset_right = 15.952116
+offset_bottom = 87.903015
+rotation = -0.84497094
+scale = Vector2(0.9444254, 0.7731859)
+mouse_filter = 2
+
+[node name="Button" type="Button" parent="." unique_id=2141982934]
+offset_left = -188.15321
+offset_top = 110.0
+offset_right = -79.15321
+offset_bottom = 141.0
+scale = Vector2(1.4735795, 1.67021)
+text = "Change Pitch"
+
+[node name="Label" type="Label" parent="Button" unique_id=1763851206]
+layout_mode = 0
+offset_left = 124.03633
+offset_top = 2.3949094
+offset_right = 164.03632
+offset_bottom = 25.394909
+
+[node name="a" type="AudioStreamPlayer2D" parent="." unique_id=2131035148]
+stream = ExtResource("3_bvf2i")
+volume_db = 10.0
+
+[node name="b" type="AudioStreamPlayer2D" parent="." unique_id=1188189285]
+stream = ExtResource("4_7kp7k")
+volume_db = 10.0
+
+[node name="c" type="AudioStreamPlayer2D" parent="." unique_id=969115508]
+stream = ExtResource("5_ph5rn")
+volume_db = 10.0
+
+[node name="Button2" type="Button" parent="." unique_id=245905278]
+offset_left = -177.40161
+offset_top = 164.0
+offset_right = -70.40161
+offset_bottom = 195.0
+text = "change color"
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="mouse_entered" from="Area2D" to="." method="playareaentered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="mouseexit"]
+[connection signal="pressed" from="Button" to="." method="soundswitch"]
+[connection signal="pressed" from="Button2" to="." method="changeclr"]

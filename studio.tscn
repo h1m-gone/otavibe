@@ -1,0 +1,105 @@
+[gd_scene format=3 uid="uid://db54xy8oo86sg"]
+
+[ext_resource type="Script" uid="uid://dckyyckg1gwan" path="res://studio.gd" id="1_10hqe"]
+[ext_resource type="Texture2D" uid="uid://cfdqtg3xmr0ri" path="res://images.jpeg" id="2_1nomu"]
+[ext_resource type="PackedScene" uid="uid://dhhtkxjc3yrhg" path="res://omabase.tscn" id="2_135x7"]
+[ext_resource type="Texture2D" uid="uid://cc5ulruvu64j6" path="res://Lively_Audience_Light_Gathering_Background_Stage_Performance_Backdrops_Photo_for_Show_IBD-19750.jpg" id="3_nyrco"]
+[ext_resource type="Texture2D" uid="uid://dvxnr1osmd5s" path="res://spotlight-blue-light-lamp-on-the-dark-empty-room-cement-grunge-background-photo.jpeg" id="4_pnvm7"]
+[ext_resource type="AudioStream" uid="uid://dk5vvkn7cji1n" path="res://aktasok-jazz-drums-151324.mp3" id="6_nyrco"]
+
+[node name="studio" type="Node2D" unique_id=1474487208]
+script = ExtResource("1_10hqe")
+
+[node name="1" type="Sprite2D" parent="." unique_id=1612964953]
+visible = false
+position = Vector2(577.25, 326)
+scale = Vector2(1.7017673, 1.4622222)
+texture = ExtResource("2_1nomu")
+
+[node name="2" type="Sprite2D" parent="." unique_id=979260049]
+visible = false
+position = Vector2(580, 325)
+scale = Vector2(1.2933333, 1.0933334)
+texture = ExtResource("3_nyrco")
+
+[node name="3" type="Sprite2D" parent="." unique_id=1727463558]
+visible = false
+position = Vector2(576.75, 324.5)
+scale = Vector2(1.8472, 1.8714286)
+texture = ExtResource("4_pnvm7")
+
+[node name="4" type="ColorRect" parent="." unique_id=298645211]
+offset_left = -6.0
+offset_top = -6.0
+offset_right = 34.0
+offset_bottom = 34.0
+scale = Vector2(29.827127, 17.036676)
+color = Color(0.9149237, 0.5878925, 0.55034816, 1)
+
+[node name="HSlider" type="HSlider" parent="4" unique_id=1137486444]
+layout_mode = 0
+offset_left = 0.36879185
+offset_top = 0.41087833
+offset_right = 8.368792
+offset_bottom = 16.41088
+scale = Vector2(0.26189512, 0.28938448)
+max_value = 255.0
+
+[node name="Label" type="Label" parent="4" unique_id=1018292245]
+layout_mode = 0
+offset_left = 1.3745878
+offset_top = 1.4087254
+offset_right = 118.37459
+offset_bottom = 76.40872
+scale = Vector2(0.020510409, 0.028576262)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "slide+click to
+change color
+ of background"
+
+[node name="Button" type="Button" parent="." unique_id=899017282]
+offset_left = 503.99997
+offset_top = 21.999998
+offset_right = 707.0
+offset_bottom = 53.0
+scale = Vector2(0.7204563, 1)
+text = "Spawn another Omatone"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=786721048]
+
+[node name="Button2" type="Button" parent="." unique_id=1660928828]
+offset_left = 413.99997
+offset_top = 8.0
+offset_right = 575.0
+offset_bottom = 39.0
+scale = Vector2(0.44566163, 0.4538219)
+text = "change background"
+
+[node name="Label" type="Label" parent="." unique_id=1692991561]
+offset_left = 97.0
+offset_top = 100.0
+offset_right = 375.0
+offset_bottom = 175.0
+text = "choose a different background, this 
+one bugs the omatones at the start
+(click the button several times"
+
+[node name="omabase" parent="." unique_id=1097959680 instance=ExtResource("2_135x7")]
+visible = false
+position = Vector2(115, 546)
+
+[node name="Button3" type="Button" parent="." unique_id=1185311844]
+offset_left = 696.0
+offset_top = 3.0
+offset_right = 813.0
+offset_bottom = 34.0
+text = "Backing track "
+
+[node name="1" type="AudioStreamPlayer" parent="Button3" unique_id=90605402]
+stream = ExtResource("6_nyrco")
+volume_db = -10.0
+
+[connection signal="value_changed" from="4/HSlider" to="." method="slider"]
+[connection signal="pressed" from="Button" to="." method="addaoma"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
